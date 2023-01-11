@@ -80,7 +80,6 @@ public class PlayerController : MonoBehaviour
             _rigidbody2D.velocity = new Vector2(_playerInput.Move, _rigidbody2D.velocity.y) * _speed;
         }
 
-
         //else if (Time.time > _moveEndTime)
         //{
         //    _rigidbody2D.velocity = Vector2.zero; 
