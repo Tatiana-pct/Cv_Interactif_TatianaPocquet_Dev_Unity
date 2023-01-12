@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - PropsColl
+  - JumpPoint1
+  - JumpPoint2
+  - JumpPoint
+  - PropsColl2
   layers:
   - Default
   - TransparentFX

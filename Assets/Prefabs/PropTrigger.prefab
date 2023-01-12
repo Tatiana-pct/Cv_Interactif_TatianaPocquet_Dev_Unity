@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4992895357017766110}
   - component: {fileID: 4992895357017766111}
-  - component: {fileID: 4992895357017766081}
   m_Layer: 0
   m_Name: PropTrigger
   m_TagString: Untagged
@@ -59,21 +58,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34562874, y: 1.6036234}
   m_EdgeRadius: 0
---- !u!114 &4992895357017766081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4992895357017766108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2d373da1a9d3de4ca8f0abcbc115e5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objJump: {fileID: 4992895357017766108}
-  _playerController: {fileID: 0}
-  _groundPoint: {fileID: 0}
-  _WhatIsTheGround:
-    serializedVersion: 2
-    m_Bits: 64

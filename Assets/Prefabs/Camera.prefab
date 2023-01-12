@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3113442012377282598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.141384, y: 6.124977, z: -12.186933}
+  m_LocalPosition: {x: 11.181828, y: 6.1067076, z: -12.186933}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -145,7 +145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3113442012917430133}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.141384, y: 6.124977, z: -12.186933}
+  m_LocalPosition: {x: 5.681383, y: 6.104977, z: -12.186933}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3113442012986868950}
   - component: {fileID: 3113442012986868951}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CameraBounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -263,11 +263,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -3.618783, y: 10.135068}
-      - {x: -3.6582346, y: -1.9342811}
+    - - {x: -3.0594835, y: 25.208843}
+      - {x: -3.0324183, y: -1.8773897}
       - {x: 93.57735, y: -2.0363097}
       - {x: 94.25627, y: -1.8279603}
-      - {x: 94.12418, y: 10.550333}
+      - {x: 94.20464, y: 25.27374}
 --- !u!1 &3113442013190195933
 GameObject:
   m_ObjectHideFlags: 0
