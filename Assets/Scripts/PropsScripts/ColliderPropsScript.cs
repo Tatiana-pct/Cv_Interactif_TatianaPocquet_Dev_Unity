@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ColliderPropsScript : MonoBehaviour
 {
-    [SerializeField] GameObject _objJump;
+    
     [SerializeField] PlayerController _playerController;
     [SerializeField] Transform _groundPoint;
     private bool _isOnGround;
@@ -29,7 +29,7 @@ public class ColliderPropsScript : MonoBehaviour
             Debug.Log("this is the Player");
            if(_isOnGround == true)
             {
-                _playerController.Jump();
+               _playerController.Jump();
                 
             }
         }
