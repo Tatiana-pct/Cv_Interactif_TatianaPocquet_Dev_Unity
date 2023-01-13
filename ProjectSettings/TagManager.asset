@@ -9,6 +9,8 @@ TagManager:
   - JumpPoint2
   - JumpPoint
   - PropsColl2
+  - sign
+  - JumpPointDepart
   layers:
   - Default
   - TransparentFX

@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     Transform _targetTranform;
     Transform _transform;
     private bool _yReached;
-    [SerializeField] Transform[] _PropsColl;
+    [SerializeField] Transform[] _JumpPointArriver;
 
 
     public Rigidbody2D Rigidbody2D { get => _rigidbody2D; }
@@ -77,14 +77,9 @@ public class PlayerController : MonoBehaviour
 
     public void Jump(int index)
     {
-        _targetTranform = _PropsColl[index -1];
+        _targetTranform = _JumpPointArriver[index -1];
         _rigidbody2D.gravityScale = 0;
         Debug.Log("Player Jump");
-
-        //_interploateAmount = (_interploateAmount + Time.deltaTime) % _jumpForce;
-        //_pointAB.position = Vector3.Lerp(_pointA.position, _pointB.position, _interploateAmount);
-        //_pointBC.position = Vector3.Lerp(_pointB.position, _pointC.position, _interploateAmount);
-
 
 
     }
@@ -135,12 +130,12 @@ public class PlayerController : MonoBehaviour
         {
             switch (Other.gameObject.tag)
             {
-                case "PropsColl":
+                case "JumpPointDepart":
                     Jump(1);
                     break;
-                case "PropsColl2":
-                    Jump(2);
-                    break;
+               // case "PropsColl2":
+               //     Jump(2);
+                 //   break;
                 default:
                     break;
             }

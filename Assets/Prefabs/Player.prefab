@@ -83,7 +83,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.92, y: 1.07}
+  m_Size: {x: 0.86, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -128,7 +128,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 1}
     oldSize: {x: 0.86, y: 1.28}
-    newSize: {x: 0.92, y: 1.07}
+    newSize: {x: 0.86, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -160,9 +160,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca8b83414984e214f855cad82195c544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _groundPoint: {fileID: 3189995404795927940}
+  _WhatIsTheGround:
+    serializedVersion: 2
+    m_Bits: 64
   _speed: 80
   _moveTime: 0.9
-  _jumpForce: 10
+  _JumpPointArriver: []
 --- !u!1 &3189995404795927947
 GameObject:
   m_ObjectHideFlags: 0
