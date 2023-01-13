@@ -15,15 +15,16 @@ public class PlayerController : MonoBehaviour
     float _moveEndTime;
 
     //Jumping
-
     Transform _targetTranform;
     Transform _transform;
     private bool _yReached;
     [SerializeField] Transform[] _JumpPointArriver;
 
+    
 
     public Rigidbody2D Rigidbody2D { get => _rigidbody2D; }
     public Transform TargetTranform { get => _targetTranform; }
+  
 
     private void Awake()
     {
@@ -53,7 +54,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         _isOnGround = Physics2D.OverlapCircle(_groundPoint.position, 0.3f, _WhatIsTheGround);
-
+        
     }
 
     #region WALK

@@ -1,26 +1,60 @@
-using System.Collections;
-using System.Collections.Generic;
+//Script servant a l'affichage des canvas des panneaux 
+
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class SignBehaviour : MonoBehaviour
 {
 
-    [SerializeField] string _signText;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //[SerializeField] string _signText;
+    //Canvas des panneaux
+    [SerializeField] GameObject _canvas;
+    [SerializeField] TMP_Text _text;
 
-    // Update is called once per frame
-    void Update()
+    //canvas d'interaction
+    [SerializeField] GameObject _canvasToucheInteract;
+
+    private PlayerInput _playerInput;
+
+    private void Update()
     {
-        
+        _playerInput = GetComponent<PlayerInput>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("signok");
+        if (collision.CompareTag("Player"))
+        {
+            //_canvasToucheInteract.SetActive(true);
+
+
+            _canvas.SetActive(true);
+
+        }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Invoke("HideCanvas", 1f);
+
+        }
+    }
+
+    public void HideCanvas()
+    {
+        //_canvasToucheInteract.SetActive(false);
+
+        _canvas.SetActive(false);
+    }
+
+    public void ShowDial()
+    {
+
+    }
+
+
+
 }
