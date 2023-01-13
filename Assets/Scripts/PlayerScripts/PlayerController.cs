@@ -20,11 +20,11 @@ public class PlayerController : MonoBehaviour
     private bool _yReached;
     [SerializeField] Transform[] _JumpPointArriver;
 
-    
+
 
     public Rigidbody2D Rigidbody2D { get => _rigidbody2D; }
     public Transform TargetTranform { get => _targetTranform; }
-  
+
 
     private void Awake()
     {
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         _isOnGround = Physics2D.OverlapCircle(_groundPoint.position, 0.3f, _WhatIsTheGround);
-        
+
     }
 
     #region WALK
@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
 
     public void Jump(int index)
     {
-        _targetTranform = _JumpPointArriver[index -1];
+        _targetTranform = _JumpPointArriver[index - 1];
         _rigidbody2D.gravityScale = 0;
         Debug.Log("Player Jump");
 
@@ -134,9 +134,9 @@ public class PlayerController : MonoBehaviour
                 case "JumpPointDepart":
                     Jump(1);
                     break;
-               // case "PropsColl2":
-               //     Jump(2);
-                 //   break;
+                case "JumpPointDepart2":
+                    Jump(2);
+                    break;
                 default:
                     break;
             }
