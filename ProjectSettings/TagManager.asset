@@ -8,9 +8,13 @@ TagManager:
   - JumpPoint1
   - JumpPoint2
   - JumpPoint
-  - PropsColl2
   - sign
   - JumpPointDepart
+  - JumpPointDepart2
+  - JumpPointDepart3
+  - JumpPointDepart4
+  - Linkedin
+  - ENI
   layers:
   - Default
   - TransparentFX

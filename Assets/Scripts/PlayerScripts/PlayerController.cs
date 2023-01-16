@@ -137,6 +137,12 @@ public class PlayerController : MonoBehaviour
                 case "JumpPointDepart2":
                     Jump(2);
                     break;
+                case "JumpPointDepart3":
+                    Jump(3);
+                    break;
+                case "JumpPointDepart4":
+                    Jump(4);
+                    break;
                 default:
                     break;
             }
