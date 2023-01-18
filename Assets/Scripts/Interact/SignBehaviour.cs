@@ -13,7 +13,7 @@ public class SignBehaviour : MonoBehaviour
     [SerializeField] TMP_Text _text;
 
     //canvas d'interaction
-    [SerializeField] GameObject _canvasToucheInteract;
+    //[SerializeField] GameObject _canvasToucheInteract;
 
     private PlayerInput _playerInput;
 

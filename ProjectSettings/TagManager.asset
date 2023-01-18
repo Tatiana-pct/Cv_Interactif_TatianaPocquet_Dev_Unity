@@ -15,6 +15,10 @@ TagManager:
   - JumpPointDepart4
   - Linkedin
   - ENI
+  - GitHub
+  - Itch
+  - UnityPlay
+  - 3WA
   layers:
   - Default
   - TransparentFX
