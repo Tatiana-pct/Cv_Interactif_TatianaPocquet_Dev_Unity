@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 59b0ff87e8f87194f85de94c29524b0f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Retron2000
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 01046caa0a928ca4d824f7a10e68eabf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

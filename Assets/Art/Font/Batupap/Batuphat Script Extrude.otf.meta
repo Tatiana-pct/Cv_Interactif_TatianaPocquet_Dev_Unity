@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5f67446c8e9e0334c953b4b03efb7f0d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Batuphat Script
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 85e0cb7e159597146a02815c4ffc9d11, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

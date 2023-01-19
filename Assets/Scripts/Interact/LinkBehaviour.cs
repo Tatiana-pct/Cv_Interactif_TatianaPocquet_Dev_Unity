@@ -53,6 +53,12 @@ public class LinkBehaviour : MonoBehaviour
             case "GameCodeur":
                 Application.OpenURL("https://www.gamecodeur.fr/toutes-les-categories/");
                 break;
+            case "Email":
+                Application.OpenURL("https://www.gamecodeur.fr/toutes-les-categories/");
+                break;
+            case "Insta":
+                Application.OpenURL("https://instagram.com/tp_lvl_up?igshid=YmMyMTA2M2Y=");
+                break;
         }
 
     }

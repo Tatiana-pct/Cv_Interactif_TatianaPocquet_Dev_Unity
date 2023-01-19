@@ -116,6 +116,9 @@ public class PlayerContoller2 : MonoBehaviour
                 case "JumpPointDepart4":
                     Jump(4);
                     break;
+                case "JumpPointDepart5":
+                    Jump(5);
+                    break;
                 default:
                     break;
             }
