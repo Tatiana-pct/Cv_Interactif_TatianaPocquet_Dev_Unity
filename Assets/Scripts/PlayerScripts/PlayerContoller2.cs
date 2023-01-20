@@ -68,13 +68,13 @@ public class PlayerContoller2 : MonoBehaviour
         {
             if (_scrollingUp)
             {
-                Debug.Log("scrollingUp");
-                _target.position += new Vector3(_scrollDistance, 0);
+                _target.position -= new Vector3(_scrollDistance, 0);
+               
             }
             else if (_scrollingDown)
             {
-                Debug.Log("scrollingdown");
-                _target.position -= new Vector3(_scrollDistance, 0);
+                
+                _target.position += new Vector3(_scrollDistance, 0);
             }
 
 
