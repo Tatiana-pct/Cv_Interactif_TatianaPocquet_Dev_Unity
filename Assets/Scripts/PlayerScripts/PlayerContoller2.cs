@@ -131,7 +131,7 @@ public class PlayerContoller2 : MonoBehaviour
 
         _jumpTarget = _jumpTargetsPointsArriver[index - 1];
         _rb.gravityScale = 0;
-        Debug.Log("Player Jump");
+       
     }
 
     private void MoveJumpChar()
@@ -141,12 +141,12 @@ public class PlayerContoller2 : MonoBehaviour
 
             if (Vector2.Distance(_transform.position, new Vector2(_transform.position.x, _jumpTarget.position.y)) > 0.2f && !_yReached)
             {
-                Debug.Log("test1");
+                
                 _transform.position = Vector2.MoveTowards(new Vector2(_transform.position.x, _transform.position.y), new Vector2(_transform.position.x, _jumpTarget.position.y), Time.deltaTime * _scrollSpeed);
             }
             else if (Vector2.Distance(new Vector2(_transform.position.x, 0), new Vector2(_jumpTarget.position.x, 0)) > 0.2f)
             {
-                Debug.Log("test2");
+                
                 if (!_yReached)
                 {
 
