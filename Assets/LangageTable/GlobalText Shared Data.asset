@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GlobalText Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GlobalText
+  m_TableCollectionNameGuidString: a511e39fd5d7a8e48a058ee53a351c8d
+  m_Entries:
+  - m_Id: 19705815040
+    m_Key: 'curiculum vitae
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3045950676992
+    m_Key: gamevdev junior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9642370326528
+    m_Key: cliquer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12100639318016
+    m_Key: welcom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16441525854208
+    m_Key: bienvenur sur le cv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17291136655360
+    m_Key: titre profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17951286550528
+    m_Key: "Pr\xE9nom"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18070438338560
+    m_Key: 'Nom '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18247949672448
+    m_Key: 'Date de naissance '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18354719875072
+    m_Key: "Poste recherch\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18417269530624
+    m_Key: "Comp\xE9tences"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18536329043968
+    m_Key: Localisation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19440604209152
+    m_Key: Presentation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19556635435008
+    m_Key: 'A propos de moi '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20060891439104
+    m_Key: Formations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20156907446272
+    m_Key: "L'ENI: \n\n\t\n\t\n\t\n\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20700594102272
+    m_Key: "LA 3WA : \n\n\t\n\t\n\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21267462676480
+    m_Key: Autodidacte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21326694637568
+    m_Key: descAuto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21860101054464
+    m_Key: Mes projets personnels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21946419830784
+    m_Key: projetsDesc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22077357613056
+    m_Key: 'Merci '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22175747596288
+    m_Key: Contact
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 3133828527222685748
+  references:
+    version: 2
+    RefIds:
+    - rid: 3133828527222685748
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1674299010995

@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GlobalText_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a511e39fd5d7a8e48a058ee53a351c8d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 19705815040
+    m_Localized: interactif resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3045950676992
+    m_Localized: Game Developper junior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9642370326528
+    m_Localized: click here to start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12100639318016
+    m_Localized: Welcome to my digital CV
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16441525854208
+    m_Localized: 'Hello and welcome to my digital CV.
+
+      
+
+      In this mini-game
+      my background and my skills are scattered throughout the level.
+
+      
+
+      Each
+      panel will display a specific section
+
+      
+
+      - Use the up scroll
+      to go back,
+
+      - Use the scroll down to move forward,
+
+      - The character
+      will jump on its own
+
+      if an obstacle arises.
+
+      
+
+      
+
+      Elements
+      are clickable, they will be recognizable
+
+      to their blinking outlines.
+
+      
+
+      Good
+      viewing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17291136655360
+    m_Localized: Candidate Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17951286550528
+    m_Localized: 'First name: Tatiana'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18070438338560
+    m_Localized: 'Name: Pocquet'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18247949672448
+    m_Localized: 'Date of birth: 11/11/1988'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18354719875072
+    m_Localized: 'Position sought: Junior Game Developer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18417269530624
+    m_Localized: 'Skills: C# & Unity'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18536329043968
+    m_Localized: 'Location: Quebec'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19440604209152
+    m_Localized: Presentation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19556635435008
+    m_Localized: 'About me :
+
+      
+
+      After a career of several years in
+      the kitchen/pastry trade, I started a professional retraining in IT'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20060891439104
+    m_Localized: Trainings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20156907446272
+    m_Localized: 'ENI:
+
+      
+
+      
+
+      I have obtained the professional
+      title equivalent to a Level 1 Master''s degree
+
+      (Bac +2) thanks to an
+      intensive training of 6 months.
+
+      It was accompanied by 2 additional
+      months,
+
+      in internship, in business..
+
+      
+
+      
+
+      Acquired
+      skills :
+
+      
+
+      Degree obtained: Web & Mobile Developer (Bac +2)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20700594102272
+    m_Localized: 'THE 3WA:
+
+      
+
+      I continued my training by integrating
+      the 3WA for training
+
+      3 month intensive
+
+      
+
+      Acquired skills
+      :
+
+      
+
+      
+
+      
+
+      Degree obtained: Certified Associate:
+      Game Developer'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21267462676480
+    m_Localized: Self-taught
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21326694637568
+    m_Localized: Obviously I do not stop there and continue to train myself on my
+      own and to progress thanks to many resources
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21860101054464
+    m_Localized: My personal projects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21946419830784
+    m_Localized: All my projects (finished or in development) are available on these
+      dedicated platforms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22077357613056
+    m_Localized: Thank you for your attention !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22175747596288
+    m_Localized: 'thank you for taking the time
+
+      to browse my digital CV.
+
+      
+
+      To
+      contact me...'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
