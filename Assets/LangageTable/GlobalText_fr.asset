@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3045950676992
-    m_Localized: "d\xE9veloppeur jeux video junior"
+    m_Localized: "d\xE9veloppeur jeux videos junior"
     m_Metadata:
       m_Items: []
   - m_Id: 9642370326528
@@ -125,6 +125,10 @@ MonoBehaviour:
   - m_Id: 22175747596288
     m_Localized: "Merci d'avoir pris le temps \nde parcourir mon cv digital. \n\nPour
       me contacter..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41955326091264
+    m_Localized: "langues: Fran\xE7ais (expert) / Anglais (d\xE9butant)"
     m_Metadata:
       m_Items: []
   references:

@@ -35,43 +35,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16441525854208
-    m_Localized: 'Hello and welcome to my digital CV.
-
-      
-
-      In this mini-game
-      my background and my skills are scattered throughout the level.
-
-      
-
-      Each
-      panel will display a specific section
-
-      
-
-      - Use the up scroll
-      to go back,
-
-      - Use the scroll down to move forward,
-
-      - The character
-      will jump on its own
-
-      if an obstacle arises.
-
-      
-
-      
-
-      Elements
-      are clickable, they will be recognizable
-
-      to their blinking outlines.
-
-      
-
-      Good
-      viewing.'
+    m_Localized: "Hello and welcome to my digital CV.\n\nIn this mini-game my background
+      and my skills are scattered throughout the level.\n\nEach panel will display
+      a specific section\n\n\t- Use the up scroll to go back,\n\t- Use the scroll
+      down to move forward,\n\t- The character will jump on its own\n\t\tif an obstacle
+      arises.\n\n\n\tElements are clickable, they will be recognizable\n\t\tto their
+      blinking outlines.\n\nGood viewing."
     m_Metadata:
       m_Items: []
   - m_Id: 17291136655360
@@ -109,10 +78,9 @@ MonoBehaviour:
   - m_Id: 19556635435008
     m_Localized: 'About me :
 
-      
 
-      After a career of several years in
-      the kitchen/pastry trade, I started a professional retraining in IT'
+      After a career of several years in the kitchen/pastry
+      trade, I started a professional retraining in IT'
     m_Metadata:
       m_Items: []
   - m_Id: 20060891439104
@@ -120,58 +88,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 20156907446272
-    m_Localized: 'ENI:
-
-      
-
-      
-
-      I have obtained the professional
-      title equivalent to a Level 1 Master''s degree
-
-      (Bac +2) thanks to an
-      intensive training of 6 months.
-
-      It was accompanied by 2 additional
-      months,
-
-      in internship, in business..
-
-      
-
-      
-
-      Acquired
-      skills :
-
-      
-
-      Degree obtained: Web & Mobile Developer (Bac +2)'
+    m_Localized: "ENI:\n\n\n\tI have obtained the professional title equivalent to
+      a Level 1 Master's degree\n\t\t(Bac +2) thanks to an intensive training of
+      6 months.\n\tIt was accompanied by 2 additional months,\n\t\tin internship,
+      in business..\n\n\nAcquired skills :\n\nDegree obtained: Web & Mobile Developer
+      (Bac +2)"
     m_Metadata:
       m_Items: []
   - m_Id: 20700594102272
-    m_Localized: 'THE 3WA:
-
-      
-
-      I continued my training by integrating
-      the 3WA for training
-
-      3 month intensive
-
-      
-
-      Acquired skills
-      :
-
-      
-
-      
-
-      
-
-      Degree obtained: Certified Associate:
-      Game Developer'
+    m_Localized: "THE 3WA:\n\n\tI continued my training by integrating the 3WA for
+      training\n\t\t3 month intensive\n\nAcquired skills :\n\n\nDegree obtained:
+      Certified Associate: Game Developer"
     m_Metadata:
       m_Items: []
   - m_Id: 21267462676480
@@ -201,10 +128,13 @@ MonoBehaviour:
 
       to browse my digital CV.
 
-      
 
       To
       contact me...'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41955326091264
+    m_Localized: 'languages: French (expert) / English (beginner)'
     m_Metadata:
       m_Items: []
   references:
