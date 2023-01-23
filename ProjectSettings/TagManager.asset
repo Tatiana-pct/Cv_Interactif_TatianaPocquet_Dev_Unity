@@ -27,6 +27,9 @@ TagManager:
   - JumpPointDepart5
   - email
   - Insta
+  - SumProfil
+  - PROFIL
+  - sumContact
   layers:
   - Default
   - TransparentFX

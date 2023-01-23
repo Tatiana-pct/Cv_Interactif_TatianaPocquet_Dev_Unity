@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LinkBehaviour : MonoBehaviour
 {
-    [SerializeField] GameObject _link;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +24,7 @@ public class LinkBehaviour : MonoBehaviour
         switch(gameObject.tag)
         {
             case "Linkedin":
+                Debug.Log("click");
                 Application.OpenURL("https://www.linkedin.com/in/tatiana-pocquet/");
                 break;
             case "ENI":

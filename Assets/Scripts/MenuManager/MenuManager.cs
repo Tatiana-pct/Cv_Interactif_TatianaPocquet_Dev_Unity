@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] Texture2D _baseCursor;
+    [SerializeField] Vector2[] _canvasPos;
+    [SerializeField] GameObject _player;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +51,11 @@ public class MenuManager : MonoBehaviour
     public void MouseHoverOut(GameObject go)
     {
         go.transform.localScale = Vector3.one;
+    }
+    public void TargetCanvas(int index)
+    {
+        _player.transform.position = _canvasPos[index];
+
     }
 
 }
