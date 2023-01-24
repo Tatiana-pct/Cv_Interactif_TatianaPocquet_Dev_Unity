@@ -9,7 +9,7 @@ Images with blinking borders are clickable
  
  
  
-to download it:
+To download it:
 https://lvl-up.itch.io/my-digital-resume
 
 To play it:
