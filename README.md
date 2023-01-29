@@ -1,16 +1,17 @@
--This is my digital resume.-
+This is my digital resume.
 
+[set to full screen for optimal rendering]
 
-Scroll down to move forward
+Use the up scroll to go back,
 
-Scroll up to move forward
+ Use the scroll down to move forward,
 
-Images with blinking borders are clickable
+Images with blinking borders are clickable 
  
  
  
 To download it:
-https://lvl-up.itch.io/my-digital-resume
+https://lvl-up.itch.io/my-digital-resume-download-version
 
 To play it:
 https://lvl-up.itch.io/my-digital-resume
