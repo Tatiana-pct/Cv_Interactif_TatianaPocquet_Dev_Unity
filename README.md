@@ -10,9 +10,8 @@ Images with blinking borders are clickable
  
  
  
-To download it:
+To download it and/or to Play it:
 https://lvl-up.itch.io/my-digital-resume
 
 
-To play it:
-https://lvl-up.itch.io/my-digital-resume
+
