@@ -9,7 +9,6 @@ Use the up scroll to go back,
 Images with blinking borders are clickable 
  
  
- 
 To download it and/or to Play it:
 https://lvl-up.itch.io/my-digital-resume
 
